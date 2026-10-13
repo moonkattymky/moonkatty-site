@@ -82,3 +82,6 @@ html,body{overflow-x:clip}
 .soc a{min-width:0}.soc a>div{min-width:0}
 @media(max-width:360px){.soc{grid-template-columns:1fr}}
 [dir=rtl] .hero h1,[dir=rtl] .slogan{text-align:right}
+.skip{position:absolute;top:-60px;left:8px;z-index:99;background:var(--gold);color:#000;padding:8px 12px}.skip:focus{top:8px}
+a:focus-visible,.btn:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.aurora{opacity:.4}}

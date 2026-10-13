@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /exchange/
+Sitemap: https://moonkattymky.github.io/moonkatty-site/sitemap.xml
