@@ -17,3 +17,5 @@ var bg=document.querySelector('.hero .bg');if(bg&&!red)addEventListener('scroll'
 var io='IntersectionObserver'in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.08}):null;
 document.querySelectorAll('.reveal').forEach(function(e){io?io.observe(e):e.classList.add('on')});
 })();
+(function(){var b=document.querySelector('.burger'),n=document.getElementById('nav');if(!b||!n)return;function set(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o)}b.onclick=function(){set(!n.classList.contains('open'))};n.addEventListener('click',function(e){if(e.target.tagName==='A')set(false)});document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});
+var ml=document.querySelector('[data-i=menu]');var L=window.I18N[document.documentElement.lang];if(L&&L.menu)b.setAttribute('aria-label',L.menu)})();
