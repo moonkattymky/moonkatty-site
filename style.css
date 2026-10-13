@@ -99,3 +99,8 @@ header select{margin-inline-start:0}
 section{scroll-margin-top:64px}
 .media{text-decoration:none;display:block}.media .bd{display:flex;align-items:center;gap:10px}.media svg{width:26px;height:26px;fill:#fff}.media b{flex:1}.media .tag{margin:0}
 .partner{padding:28px;text-align:center;border-color:rgba(255,122,217,.45);background:linear-gradient(135deg,rgba(255,122,217,.12),rgba(126,243,255,.08))}.partner p{max-width:640px;margin:0 auto;color:#e3defa}.partner .btns{justify-content:center}
+.tokbox{position:relative;padding:30px 22px;text-align:center;border-color:rgba(255,210,122,.6);background:radial-gradient(120% 80% at 50% 0,rgba(255,210,122,.18),rgba(180,140,255,.1) 50%,rgba(24,18,58,.6));box-shadow:0 0 60px rgba(255,210,122,.25)}
+.tokbox h2{font-size:clamp(2.4rem,10vw,4rem);background:linear-gradient(180deg,#fff,var(--gold),#ff9f5a);-webkit-background-clip:text;background-clip:text}
+.tokbox .sub{margin:0 auto 22px}.tokbox .feat{text-align:start}
+.coin{width:84px;height:84px;margin:0 auto 12px;border-radius:50%;display:grid;place-items:center;font-size:2.6rem;font-weight:900;color:#3a2200;background:radial-gradient(circle at 35% 30%,#fff3c4,var(--gold) 45%,#d98a2b);box-shadow:0 0 40px rgba(255,210,122,.7);animation:spin 6s linear infinite}
+@keyframes spin{0%{transform:rotateY(0)}100%{transform:rotateY(360deg)}}
