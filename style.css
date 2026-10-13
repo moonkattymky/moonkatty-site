@@ -85,3 +85,8 @@ html,body{overflow-x:clip}
 .skip{position:absolute;top:-60px;left:8px;z-index:99;background:var(--gold);color:#000;padding:8px 12px}.skip:focus{top:8px}
 a:focus-visible,.btn:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){.aurora{opacity:.4}}
+.sub.big{font-size:1.12rem;color:#e3defa;max-width:820px}
+.feats{grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}
+.feat{padding:20px}.fi{font-size:2rem;width:56px;height:56px;display:grid;place-items:center;border-radius:16px;margin-bottom:12px;background:radial-gradient(circle,rgba(180,140,255,.35),rgba(255,122,217,.1));box-shadow:0 0 24px rgba(180,140,255,.4)}
+.why{margin-top:18px;padding:22px;border-color:rgba(255,210,122,.45);background:linear-gradient(135deg,rgba(255,210,122,.08),rgba(180,140,255,.1))}.why h3{color:var(--gold)}
+#project{padding-top:56px}
