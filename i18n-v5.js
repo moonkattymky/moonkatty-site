@@ -1,2 +1,0 @@
-(function(A){for(var k in A){var a=A[k].split('|');Object.assign(window.I18N[k],{nav_tok:a[0],tk_more:a[1]})}})({
-en:"Token|Learn more",ru:"Токен|Подробнее",uk:"Токен|Детальніше",es:"Token|Más información",pt:"Token|Saiba mais",de:"Token|Mehr erfahren",fr:"Jeton|En savoir plus",it:"Token|Scopri di più",tr:"Token|Daha fazla",he:"טוקן|למידע נוסף",ar:"الرمز|اعرف المزيد",ko:"토큰|자세히 보기",zh:"代币|了解更多"});
